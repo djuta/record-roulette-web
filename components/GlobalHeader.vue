@@ -1,0 +1,50 @@
+<template>
+  <header class="global-header">
+    <div class="global-header__inner">
+      <img src="../static/images/logo.svg" alt="" />
+      <h1>Record Roulette</h1>
+      <a href="mailto:djuta.software@gmail.com">Contact</a>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+  name: 'GlobalHeader',
+}
+</script>
+
+<style lang="scss">
+@import '../styles/include.scss';
+
+.global-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 999;
+  box-shadow: $box-shadow;
+  &__inner {
+    align-items: center;
+    padding: 0 5vw;
+    height: $space-5;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    @include mobile-breakpoint {
+      height: $space-4;
+      h1 {
+        font-size: $font-size-3;
+      }
+    }
+    img {
+      height: 100%;
+      width: auto;
+    }
+    a {
+      margin-left: auto;
+    }
+  }
+}
+</style>
