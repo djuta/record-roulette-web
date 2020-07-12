@@ -34,10 +34,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [
-    { src: '~/plugins/toggle.js', ssr: false },
-    { src: '~/plugins/vuex-persist', ssr: false },
-  ],
+  plugins: [{ src: '~/plugins/vuex-persist', ssr: false }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
