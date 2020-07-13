@@ -64,6 +64,7 @@ export class BadgeCardPropBuilder {
     height: $space-4;
     width: $space-4;
     background-size: cover;
+    background-position: center;
   }
   &__title {
     padding: 0 $space-1;
