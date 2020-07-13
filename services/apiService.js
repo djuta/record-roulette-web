@@ -2,7 +2,7 @@ import Channel from '../models/Channel'
 import Video from '../models/Video'
 import fetchService from './fetchService'
 
-const baseUrl = 'https://record-roulette-281620.uc.r.appspot.com/v1'
+const baseUrl = 'https://api.recordrouletteapp.com/v1'
 
 export const fetchVideos = async (channelIds, dispatch) => {
   const videos = await fetchService(
