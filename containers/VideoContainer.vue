@@ -25,12 +25,10 @@
 <script>
 import Vue from 'vue'
 import VueYoutube from 'vue-youtube'
-import ToggleButton from 'vue-js-toggle-button/dist/ssr.index'
 import { mapActions, mapGetters } from 'vuex'
 import Description from '../components/Description.vue'
 
 Vue.use(VueYoutube)
-Vue.use(ToggleButton)
 
 export default {
   name: 'VideoContainer',
