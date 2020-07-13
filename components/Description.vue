@@ -16,7 +16,7 @@
         (https://www.youtube.com/c/username) are not currently supported.
       </li>
       <li>Click the "Get Videos" button.</li>
-      <li>Skip to the next video by clicking the Next Video button.</li>
+      <li>Skip to the next video by clicking the "Next Video" button.</li>
     </ol>
     <p>
       For any questions, comments, or feature requests, email
