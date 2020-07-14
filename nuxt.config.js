@@ -52,6 +52,12 @@ export default {
         id: 'UA-172510094-1',
       },
     ],
+    [
+      '@nuxtjs/google-adsense',
+      {
+        id: 'ca-pub-1263779672452039',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
