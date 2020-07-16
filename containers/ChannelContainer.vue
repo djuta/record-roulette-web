@@ -98,9 +98,10 @@ export default {
     display: none;
     @include mobile-breakpoint {
       display: block;
-      bottom: $space-3;
-      right: $space-3;
+      bottom: $space-2;
+      right: $space-2;
       position: fixed;
+      z-index: 998;
       .icon-button {
         box-shadow: $box-shadow;
         height: $space-5;
