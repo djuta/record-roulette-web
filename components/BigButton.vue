@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'IconButton',
+  name: 'BigButton',
   props: {
     text: { type: String, default: '' },
     kind: { type: String, default: '' },
